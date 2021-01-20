@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F6F3"
+    android:orientation="vertical"
+    tools:context="com.example.huyng.nutrisnap.MainActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:src="@drawable/bg_main" android:scaleType="fitEnd"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F6F8F1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/progress_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your progress  "
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="20dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:drawableStart="@drawable/ic_show_chart"
+                android:drawableTint="#FFFFFF"
+                android:background="@drawable/button"
+                android:onClick="progressBtnOnClick"
+                android:drawableLeft="@drawable/ic_show_chart" />
+
+            <Button
+                android:id="@+id/media_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Open from gallery"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:drawableStart="@drawable/ic_photo_library"
+                android:drawableTint="#FFFFFF"
+                android:background="@drawable/button"
+                android:onClick="galleryBtnOnClick"
+                android:drawableLeft="@drawable/ic_photo_library" />
+            <Button
+                android:id="@+id/camera_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take a photo  "
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:drawableStart="@drawable/ic_photo_camera"
+                android:drawableTint="#FFFFFF"
+                android:background="@drawable/button"
+                android:onClick="cameraBtnOnClick"
+                android:drawableLeft="@drawable/ic_photo_camera" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

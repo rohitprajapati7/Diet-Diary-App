@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DietDiary</string>
+    <string name="app_title">NUTRI SNAP</string>
+    <string name="app_subtitle">Food encyclepedia</string>
+    <string name="title_activity_result">Results</string>
+    <string name="loading_text">Processing results</string>
+    <string name="food_image_description">Food Image</string>
+    <string name="title_activity_diary">Diary</string>
+    <string name="title_diary">Diary</string>
+    <string name="title_progress">Progress</string>
+    <string name="date_select">Today </string>
+</resources>
