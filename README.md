@@ -1,21 +1,18 @@
 # Diet-Diary-App
 
-<p>The app shows neither calories nor numbers;
+<p>. The app shows neither calories nor numbers;
 instead, users have only to take a picture or
 import a picture from mobile, then they are
 able check their food calories and protine .
 It is very simple and highly effective.</p>
 <br>
-<p>Database used in backend</p>
+<p>. Database used in backend is SQLITE</p>
 
-<br>
-<br>
 <br>
 <br>
 
 <h2>UI(User Interface)</h2>
-<br>
-<br>
+
 <br>
 <br>
 
